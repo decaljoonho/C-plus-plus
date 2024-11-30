@@ -1,47 +1,153 @@
 #include <stdio.h>
 //int main()
 //{
-//	if(0)
+//	for(int i = 6; i>= 1; i--)
 //	{
-//		printf("True\tÂü\n");
-//		printf("ÀÀ\t¸Â¾Æ\n");
+//		printf("%dí•™ë…„ ",i);
+//		for(int j = 1; j <= 7; j++)
+//		{
+//
+//			printf("%dë°˜ ", j);
+//		}
+//		printf("\n");
 //	}
-//	else
+//	
+//}
+
+//int main()
+//{
+//	int j = 6;
+//	while(j>= 1)
 //	{
-//		printf("False\t°ÅÁþ\n");
-//		printf("¾Æ´Ï\t¾Æ´Ï¾ß\n");
+//		printf("%d í•™ë…„ ",j);
+//		j--;
+//		
+//		int i = 1;
+//		while(i <= 7)
+//	    {
+//	    	printf("%d ë°˜ ",i);
+//	    	i++;
+//			
+//		}
+//	    printf("\n");
+//	}   
+//	
+//}
+
+//int main()
+//{
+//	int j = 1;
+//	do
+//	{
+//		printf("%dí•™ë…„ ",j);
+//		
+//		int i =7;
+//		do
+//		{
+//			printf("%dë°˜ ",i);
+//		 	i--;
+//		
+//		 
+//		}while(i>=1);
+//	    printf("\n");
+//	j++;
+//	}while(j<=6);
+//}
+
+//int main()
+//{
+//	for(int j = 6; j>= 1; j--)
+//	{
+//		printf("%dí•™ë…„ ",j);
+//		int i = 7;
+//		while(i>=1)
+//		{
+//			printf("%dë°˜ ",i);
+//			i--;
+//			
+//		}
+//		printf("\n");
+//     }
+//}
+
+//int main()
+//{
+//	for(int i = 1; i <= 5; i++)
+//	{
+//		for(int j =1; j<= i; j++ )
+//		{
+//			printf("%d ",j);
+//		}
+//		printf("\n");
+//	}
+//	
+//	
+//}
+
+//int main()
+//{
+//	for(int i = 5; i >= 1; i--)
+//	{
+//		for(int j = 1; j<= i; j++)
+//		{
+//			printf("%d ",j);
+//		}
+//		printf("\n");
 //	}
 //}
 
 //int main()
 //{
-//	int a,b;
-//	a = 12;
-//	b = 56;
-//	
-//	if(a>b)
+//	for(int i = 5; i >= 1; i--)
 //	{
-//		printf("%d´Â %dº¸´Ù Å©´Ù\n",a,b);	
+//		for(int j = i;  j <= 5; j++)
+//		{
+//			printf("%d ",j);
+//			
+//		}
+//		printf("\n");
 //	}
-//	else
+//}
+
+//int main()
+//{
+//	for(int i = 5; i>= 1; i --)
 //	{
-//		printf("%d´Â %dº¸´Ù Å©Áö ¾Ê´Ù\n",a,b);
+//		for(int j = i; j >= 1; j --)
+//		{
+//			printf("%d ",j);
+//			
+//		}
+//		printf("\n");
 //	}
 //}
 
 int main()
 {
-	int a,b,c;
-	a = 12;
-	b = 56;
-	c = a>b;
-	
-	if(c)
+	for(int i = 1; i<= 100; i++)
 	{
-		printf("%d´Â %dº¸´Ù Å©´Ù\n",a,b);
-	}
-	else
-	{
-		printf("%d´Â %dº¸´Ù Å©Áö¾Ê´Ù\n",a,b);
+		for(int j = 1; j <= i; j++)
+		{
+			if(i%j==0)
+			{
+				printf("%d ",j);
+			}
+		}
+		printf("\n");
 	}
 }
+
+//int main()
+//{
+//	int a,b;
+//	scanf("%d %d",&a, &b);
+//	if (a%b==0)
+//	{
+//		printf("yes");
+//		
+//	}
+//	else
+//	{
+//		printf("no");
+//	}
+//}
