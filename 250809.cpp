@@ -26,11 +26,31 @@ using namespace std;
 //	return 0;
 //}
 
+int tree[100001]
+int distance[100001]
+
+int gcd(int a, int b) // 최대공약 수 
+{
+	int r = a%b;
+	
+	if(r==0)
+		return b;
+	else
+		return gcd(b,r);
+}
+
 int main()
 {
 	int n;
 	cin>>n;
-	cout<<n;
+	int count = 0;
+	int num = 0;
+	
+	for(int i=0; i<n; i++)
+	{
+		cin>> 
+	}
+
 }
 
 
